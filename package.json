@@ -1,0 +1,10 @@
+{
+  "name": "team-flow-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Responsive Japanese internal-work dashboard",
+  "scripts": {
+    "dev": "python3 -m http.server 4173 --directory dist",
+    "check": "node --check dist/app.js"
+  }
+}
